@@ -1,0 +1,358 @@
+.text-center{
+    text-align: center;
+}
+
+/**
+* 01. 06. Content
+*/
+.kpi-main-class .csf-metabox .csf-content {
+    margin-left: 0;
+}
+
+/**
+* 30. 06. 2020. Content
+*/
+.feed-disabled .csf-fieldset
+{
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
+}
+.feed-disabled:hover:after {
+    content: "The options are available in the Pro Version only.";
+    position: absolute;
+    top: 0;
+    width: 95%;
+    height: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #2196F3;
+}
+ 
+/* Responsive */
+  
+@media (max-width: 1024px) {
+    .kp-ifree-upgrade-header .demo-btn,
+    .kp-ifree-upgrade-footer .demo-btn,
+    .kp-ifree-upgrade-header .upgrade-btn,
+    .kp-ifree-upgrade-footer .upgrade-btn {
+        margin: 0 auto;
+        display: block;
+    }
+  
+    .kp-ifree-upgrade-header .kp-ifree-col-lg-7 {
+        width: 100%;
+        float: none;
+    }
+  
+    .kp-ifree-upgrade-header .kp-ifree-col-lg-5 {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+  
+    .kp-ifree-upgrade-header .kp-ifree-container {
+        text-align: center;
+    }
+}
+ 
+
+/* Help Page */
+div.kp-ifree-help .wp-badge{
+    border: none;
+    background: url(../images/icon-256.png) right no-repeat;
+    background-size: 110px 110px;
+    box-shadow: none;
+    height: auto;
+}
+.about-wrap.kp-ifree-help [class$="-col"] {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-wrap [class$="-col"] {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.kp-ifree-help  [class$="-col"] .col {
+    flex: 1;
+    align-self: flex-start;
+}
+.kp-ifree-help  .col {
+    margin-top: 40px;
+}
+.kp-ifree-help.about-wrap [class$="-col"] .col+.col {
+    margin-left: 0;
+}
+.kp-ifree-help.about-wrap .help-section[class$="-col"] .col+.col {
+    margin-left: 20px;
+}
+div.kp-ifree-help .headline-feature.feature-video {
+    position: relative;
+    margin: 40px 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+    max-width: 100%;
+    height: 0;
+    text-align: center;
+}
+div.kp-ifree-help .headline-feature.feature-video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+div.kp-ifree-help .feature-section .kp-ifree-feature{
+    background-color: #fff;
+    padding: 20px 20px;
+    border: 1px solid #ddd;
+}
+div.kp-ifree-help .feature-section .kp-ifree-feature h3{
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+div.kp-ifree-help .feature-section i.kp-ifree-font-icon{
+    font-size: 30px;
+    display: block;
+    color: #52b3d9;
+}
+div.kp-ifree-help .kp-ifree-pro-features .feature-section span.dashicons{
+    font-size: 22px;
+    color: #fff;
+    background-color: #52b3d9;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+div.kp-ifree-help .kp-ifree-pro-features .feature-section{
+    margin-bottom: 40px;
+    margin-left: -2%;
+}
+div.kp-ifree-help .kp-ifree-pro-features .feature-section .kp-ifree-feature h3{
+    margin-top:0;
+}
+div.kp-ifree-help .kp-ifree-pro-features .feature-section .kp-ifree-feature p{
+    margin-bottom:0;
+}
+div.kp-ifree-help .kp-ifree-pro-features .feature-section .kp-ifree-feature{
+    box-shadow: 0 0 10px 0 #dddddd;
+    margin: 4px;
+    border: 0 solid;
+}
+div.kp-ifree-help .kp-ifree-pro-features .feature-section.three-col .col{
+    min-width: 31.3%;
+    max-width: 31.3%;
+    margin-top: 20px;
+    padding-left: 2%;
+}
+div.kp-ifree-help .kp-ifree-pro-features .kp-ifree-pro-subtitle{
+    font-size: 1.2em;
+    margin-bottom: 26px;
+}
+
+div.kp-ifree-help .kp-ifree-upgrade-sticky-footer{
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    width: calc(100% - 195px);
+    z-index: 9;
+    margin-left: -25px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    padding: 15px 0;
+    border-bottom: none;
+}
+div.kp-ifree-help .kp-ifree-pro-features h2{
+    font-size: 2.5em;
+    font-weight: 400;
+}
+div.kp-ifree-help .kp-ifree-upgrade-sticky-footer h3{
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+div.kp-ifree-help .kp-ifree-upgrade-sticky-footer a.button{
+    margin: 0 8px;
+}
+
+/* Upgrade Page */
+.kp-ifree-upgrade > h1 {
+    font-size: 2.5em;
+    color: #444;
+    font-weight: 300;
+}
+.kp-ifree-upgrade > h1 span {
+    font-weight: 400;
+}
+.kp-ifree-upgrade .about-text {
+    margin-bottom: 0;
+}
+.kp-ifree-upgrade ul {
+    margin-top: 0;
+}
+.about-wrap.kp-ifree-upgrade .about-text {
+    min-height: 60px;
+}
+.about-wrap.kp-ifree-upgrade hr {
+    order: 0;
+    height: 0;
+    margin: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.kp-ifree-upgrade .kp-ifree-pro-features .feature-section {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kp-ifree-upgrade .kp-ifree-pro-features .feature-section .kp-ifree-feature h3 {
+    margin-top: 0;
+}
+.kp-ifree-upgrade .kp-ifree-pro-features .feature-section .kp-ifree-feature p {
+    margin-bottom: 0;
+}
+.kp-ifree-upgrade .kp-ifree-pro-features .feature-section .kp-ifree-feature {
+    box-shadow: 0 0 10px 0 #ddd;
+    margin: 4px;
+    border: 0 solid;
+}
+.kp-ifree-upgrade .kp-ifree-pro-features .feature-section.three-col .col {
+    min-width: 32%;
+    max-width: 32%;
+    margin-top: 20px;
+    display: flex;
+    align-self: auto;
+}
+.kp-ifree-upgrade .kp-ifree-pro-features .kp-ifree-pro-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 26px;
+}
+.kp-ifree-upgrade .kp-ifree-pro-features h2,
+.kp-ifree-upgrade .kp-ifree-promo-video-title {
+    font-size: 2.2em;
+    font-weight: 400;
+}
+.kp-ifree-join-community h2 {
+    font-size: 2em;
+}
+.kp-ifree-upgrade .kp-ifree-upgrade-sticky-footer h3 {
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+.kp-ifree-upgrade .kp-ifree-upgrade-sticky-footer a.button {
+    margin: 0 8px;
+}
+.kp-ifree-upgrade .tfree-upgrade-btn {
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
+.kp-ifree-upgrade .tfree-upgrade-btn a,
+.kp-ifree-upgrade a.tfree-upgrade-btn {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+.kp-ifree-upgrade .tfree-upgrade-btn a:focus {
+    outline: 0;
+}
+.kp-ifree-upgrade a.tfree-upgrade-btn,
+.kp-ifree-upgrade ul li.tfree-upgrade-btn:first-child a {
+    background: #52b3d9;
+    padding: 0 15px;
+    line-height: 46px;
+    display: block;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.kp-ifree-upgrade ul li.tfree-upgrade-btn:last-child a {
+    text-decoration: underline;
+}
+.kp-ifree-upgrade ul li.tfree-upgrade-btn a i {
+    margin-left: 4px;
+}
+.kp-ifree-upgrade ul li.tfree-upgrade-btn:last-child a i {
+    font-size: 14px;
+}
+.kp-ifree-upgrade a.tfree-upgrade-btn {
+    display: inline-block;
+}
+
+/* Review notice */
+#kp-ifree-review-notice {
+    padding:15px 15px 15px 0;
+    background-color:#fff;
+    border-radius:3px;
+    margin:20px 20px 0 0;
+}
+#kp-ifree-review-notice .kp-ifree-plugin-icon {
+    width:125px;
+    float:left;
+    line-height:90px;
+    text-align:center;
+}
+#kp-ifree-review-notice .kp-ifree-plugin-icon img {
+    max-width:83px;
+    vertical-align:middle;
+}
+#kp-ifree-review-notice .kp-ifree-notice-text {
+    overflow:hidden;
+}
+#kp-ifree-review-notice .kp-ifree-notice-text h3 {
+    font-size:24px;
+    margin:0 0 5px;
+    font-weight:400;
+    line-height:1;
+}
+#kp-ifree-review-notice .kp-ifree-notice-text p {
+    margin:10px 0 10px 0;
+    font-size:13px;
+}
+#kp-ifree-review-notice .kp-ifree-notice-text p.kp-ifree-review-actions {
+    margin:10px 0 2px 0;
+}
+#kp-ifree-review-notice .kp-ifree-notice-text .kp-ifree-review-actions a {
+    text-decoration:none;
+    margin-right:8px;
+    color:#63a37b;
+    display:inline-block;
+    position:relative;
+}
+#kp-ifree-review-notice .kp-ifree-notice-text .kp-ifree-review-actions a span {
+    padding-right:2px;
+}
+#kp-ifree-review-notice .kp-ifree-notice-text .kp-ifree-review-actions a.button {
+    color:#fff;
+}
+
+/* Responsive CSS */
+@media (max-width: 960px) {
+    div.kp-ifree-help .kp-ifree-upgrade-sticky-footer {
+        width: calc(100%);
+    }
+}
+@media screen and (max-width: 782px){
+    div.kp-ifree-help .three-col .col {
+        min-width: 48%!important;
+        max-width: 48%!important;
+        margin-left: 0!important;
+    }
+}
+@media (max-width: 500px) {
+    div.kp-ifree-help .wp-badge {
+        background-position-x: center;
+    }
+    div.kp-ifree-help .three-col .col {
+        min-width: 100%!important;
+        max-width: 100%!important;
+        margin-top: 1em;
+    }
+}
